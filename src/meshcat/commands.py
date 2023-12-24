@@ -98,7 +98,7 @@ class SetProperty:
         return {
             u"type": u"set_property",
             u"path": self.path.lower(),
-            u"property": self.key.lower(),
+            u"property": self.key,
             u"value": self.value
         }
 
